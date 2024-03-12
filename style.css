@@ -1,0 +1,98 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Pink: hsl(275, 100%, 97%);
+    --G-green: hsl(125, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    background-color: var(--G-green);
+    background-image: url(money.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    min-height: 100vh;;
+    position:relative;
+    
+}
+
+main  {
+    background-color: white;
+    padding: 30px 40px 10px;
+    height: fit-content;
+    width: 43vw;
+    min-width: 300px;
+    border-radius: 20px;
+    /*margin-top: 12vh;*/
+    justify-self: center;
+}
+
+header  {
+    display:flex;
+    align-items: center;
+    height: fit-content;
+}
+
+header img  {
+    width: 50px;
+    margin-left: 5px;
+}
+
+h1  {
+    font-weight: 900px;
+    font-size: 45px;
+    margin-left: 30px;
+}
+
+.question {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.5vh 0;
+}
+
+h2  {
+    font-size: 18px;
+}
+
+.question:hover {
+    color: green;
+    cursor: pointer;
+}
+
+button  {
+    background: transparent;
+    border: none;
+}
+
+.answer {
+    display:none;
+}
+
+.answer p {
+    color: var(--G-green);
+    font-size: 16px;
+    line-height: 2.2ch;
+    margin-bottom: 4vh;
+
+}
+
+hr {background-color: var(--G-green);}
+
+footer {
+    margin-top: 3vh;
+}
